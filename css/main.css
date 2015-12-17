@@ -1,0 +1,20 @@
+td{
+	text-align: center;
+}
+table{
+	width: 80%;
+	border: solid 2px black;
+}
+tbody tr:nth-child(odd){
+	background-color: #090;
+}
+tbody tr:nth-child(even){
+	background-color: #060;
+}
+.table tr:hover{
+	background-color: #bf1;
+	color :#00C;
+}
+.table tr td:hover{
+	background-color: #5F1;
+};
